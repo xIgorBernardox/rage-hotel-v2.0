@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-font-family: Poppins, Sans-serif, Arial, Helvetica;
+  --secondary-font-family: JetBrains Mono, Sans-serif, Arial, Helvetica;
+}
+
+body {
+  padding-top: 120px;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-family: var(--primary-font-family);
+}
+
+h5 {
+  font-family: var(--primary-font-family);
+}
+
+label {
+  font-family: var(--secondary-font-family);
+}
+
+img {
+  border-radius: 8px;
+}
+
+.main_form{
+  padding-bottom: 32px;
+}
+
+.carousel_container {
+  padding-bottom: 32px;
+}
+
+.depoimentos_container {
+  padding-bottom: 32px;
+}
+
+.hotel_main {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 100px / 120px;
+}
+
+.card {
+  transition: .3s ease;
+  cursor: pointer;
+}
+.card:hover {
+  transform: scale3d(1.1, 1.1, 1);
+}
+
+.img-suites{
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+.about-us__card__image {
+  height: 300px;
+  object-fit: cover;
+}
